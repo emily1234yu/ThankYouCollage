@@ -17,8 +17,6 @@ void setup (){
     //left
  
  
-   img= loadImage("cat cream.png");
-   cat= loadImage("cat.png");
    
    
   image(img,0,300,200,200);
