@@ -14,10 +14,7 @@ void setup (){
     background(0);
     //ice cream photo
     //left
- 
- 
-   
-   
+
   image(img,0,300,200,200);
    //right
   image(img,500,300,200,200);
