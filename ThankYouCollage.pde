@@ -1,4 +1,3 @@
-//add modern art code here
 float ball=10;
 float circleX=10;
 float speed=10;
