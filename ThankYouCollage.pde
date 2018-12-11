@@ -16,6 +16,11 @@ void setup (){
     //ice cream photo
     //left
  
+ 
+   img= loadImage("cat cream.png");
+   cat= loadImage("cat.png");
+   
+   
   image(img,0,300,200,200);
    //right
   image(img,500,300,200,200);
