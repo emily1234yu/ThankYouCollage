@@ -6,27 +6,23 @@ PImage cat;
 
 void setup (){
   size(700,700);
-  img= loadImage("cat cream.png");
-   cat= loadImage("cat.png");
 }
   
   void draw (){
     background(0);
     //ice cream photo
     //left
- 
- 
-   img= loadImage("cat cream.png");
-   cat= loadImage("cat.png");
-   
-   
+  img= loadImage("cat cream.png");
   image(img,0,300,200,200);
    //right
+   img= loadImage("cat cream.png");
   image(img,500,300,200,200);
   //cat photo
   //left
+  cat=loadImage("cat.png");
   image(cat,0,500,100,200);
   //right
+   cat=loadImage("cat.png");
   image(cat,600,500,100,200);
   
     //ice cream inside bowl
@@ -83,5 +79,4 @@ void setup (){
    text("Me",250,600);
    fill(200,200);
    rect(50,mouseY,600,100,100);
-  
   }
